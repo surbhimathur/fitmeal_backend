@@ -1,6 +1,6 @@
 const vegDietChart={
     2100:{
-        Monday,Friday:{
+        Monday_Friday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass jeera water + mix 1 tsp chia seeds"
@@ -42,7 +42,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },   
         },
-        Tuesday,Thursday:{
+        Tuesday_Thursday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass corriander seed water + mix 1 tsp chia seeds"
@@ -84,7 +84,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },      
         },
-        Wednesday,Saturday:{
+        Wednesday_Saturday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass saunf water + mix 1 tsp chia seeds"
@@ -126,7 +126,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },    
         },
-       Sunday_Detox_day:{
+       Sunday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -163,11 +163,14 @@ const vegDietChart={
                 time:"8pm-9pm",
                 diet:"1 glass Banana shake without sugar/honey"
             },
-      
+            Post_Dinner:{
+                time:"9:30pm-10:30pm",
+                diet:""
+            },
         }
     },
     2700:{
-        Monday,Friday:{
+        Monday_Friday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -209,7 +212,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },   
         },
-        Tuesday,Thursday:{
+        Tuesday_Thursday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass saunf water + mix 1 tsp chia seeds"
@@ -251,7 +254,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },      
         },
-        Wednesday,Saturday:{
+        Wednesday_Saturday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass dalchini water + mix 1 tsp chia seeds"
@@ -293,7 +296,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },    
         },
-       Sunday_Detox_day:{
+       Sunday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -330,11 +333,14 @@ const vegDietChart={
                 time:"8pm-9pm",
                 diet:"1 glass apple shake without sugar/honey"
             },
-      
+            Post_Dinner:{
+                time:"9:30pm-10:30pm",
+                diet:""
+            },
         }
     },
     3200:{
-        Monday,Friday:{
+        Monday_Friday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass saunf water + mix 1 tsp chia seeds"
@@ -376,7 +382,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },   
         },
-        Tuesday,Thursday:{
+        Tuesday_Thursday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass corriander seed water + mix 1 tsp chia seeds"
@@ -418,7 +424,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },      
         },
-        Wednesday,Saturday:{
+        Wednesday_Saturday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass jeera water + mix 1 tsp chia seeds"
@@ -460,7 +466,7 @@ const vegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },    
         },
-       Sunday_Detox_day:{
+       Sunday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -497,14 +503,17 @@ const vegDietChart={
                 time:"8pm-9pm",
                 diet:"1 glass mango shake without sugar/honey"
             },
-      
+            Post_Dinner:{
+                time:"9:30pm-10:30pm",
+                diet:""
+            },
         }
     }
 }
     
 const nonVegDietChart={
     2100:{
-        Monday,Friday:{
+        Monday_Friday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -546,7 +555,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },   
         },
-        Tuesday,Thursday:{
+        Tuesday_Thursday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass corriander seed water + mix 1 tsp chia seeds"
@@ -588,7 +597,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },      
         },
-        Wednesday,Saturday:{
+        Wednesday_Saturday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass saunf water + mix 1 tsp chia seeds"
@@ -630,7 +639,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },    
         },
-       Sunday_Detox_day:{
+       Sunday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -667,11 +676,14 @@ const nonVegDietChart={
                 time:"8pm-9pm",
                 diet:"1 glass Banana shake without sugar/honey"
             },
-      
+            Post_Dinner:{
+                time:"9:30pm-10:30pm",
+                diet:""
+            },
         }
     },
     2700:{
-        Monday,Friday:{
+        Monday_Friday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -713,7 +725,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },   
         },
-        Tuesday,Thursday:{
+        Tuesday_Thursday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass dalchini seed water + mix 1 tsp chia seeds"
@@ -755,7 +767,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },      
         },
-        Wednesday,Saturday:{
+        Wednesday_Saturday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass saunf water + mix 1 tsp chia seeds"
@@ -797,7 +809,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },    
         },
-       Sunday_Detox_day:{
+       Sunday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -834,11 +846,14 @@ const nonVegDietChart={
                 time:"8pm-9pm",
                 diet:"1 glass apple shake without sugar/honey"
             },
-      
+            Post_Dinner:{
+                time:"9:30pm-10:30pm",
+                diet:""
+            },
         }
     },
     3200:{
-        Monday,Friday:{
+        Monday_Friday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -880,7 +895,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },   
         },
-        Tuesday,Thursday:{
+        Tuesday_Thursday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass dalchini seed water + mix 1 tsp chia seeds"
@@ -922,7 +937,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },      
         },
-        Wednesday,Saturday:{
+        Wednesday_Saturday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass saunf water + mix 1 tsp chia seeds"
@@ -964,7 +979,7 @@ const nonVegDietChart={
                 diet:"1 glass milk mixed with 1 tsp sabja/chia seeds"
             },    
         },
-       Sunday_Detox_day:{
+       Sunday:{
             Early_morning: {
                 time: "7am",
               diet:  "1 glass lemon water + mix 1 tsp chia seeds"
@@ -1001,7 +1016,10 @@ const nonVegDietChart={
                 time:"8pm-9pm",
                 diet:"1 glass mango shake without sugar/honey"
             },
-      
+            Post_Dinner:{
+                time:"9:30pm-10:30pm",
+                diet:""
+            },
         }
     }
 }

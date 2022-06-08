@@ -5,6 +5,12 @@ const {vegDietChart,nonVegDietChart}= require('./dietchart');
 
 const PORT= process.env.PORT || 4000;
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "https://fitmealapp.netlify.app"); // update to match the domain you will make the request from
+    res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+    next();
+  });
+
 app.get("/dietchart", (request,response)=>{
  const calories=parseInt(request.query?.calorie);
  const preference=request.query?.preference.toLowerCase();
